@@ -1,0 +1,23 @@
+src/
+├── app/
+│   ├── controllers/          # Route controllers (similar to Laravel controllers)
+│   ├── middleware/          # Custom middleware (similar to middleware)
+│   ├── services/           # Business logic (similar to services/repositories)
+│   ├── validators/         # Request validation
+│   ├── exceptions/         # Custom error handlers
+│   └── kernels/            # Application bootstrapping
+├── config/                 # Configuration files
+├── routes/                # Route definitions
+├── models/                # Database models (if using Sequelize/Prisma/Mongoose)
+├── database/
+│   ├── migrations/        # Database migrations
+│   ├── seeders/          # Data seeders
+│   └── factories/        # Model factories
+├── public/                # Static files
+├── resources/
+│   ├── views/            # Templates (if using server-side rendering)
+│   └── lang/             # Localization files
+├── storage/               # Logs, uploads, cache
+├── tests/                 # Test files
+├── utils/                 # Helper functions
+└── validations/           # Validation schemas (using Joi/Zod)
